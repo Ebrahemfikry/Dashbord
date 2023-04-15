@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <title>Vuexy</title>
+</head>
+<body>
+    <main class="container-fluid p-0 m-0">
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="nav-aside">
+                <div class="logo">
+                    <img src="images/logo.png" alt="">
+                    <h1>Vuexy</h1>
+                </div>
+                <div class="nav-icon">
+                    <i class="bi bi-box-arrow-left" id="menu"></i>
+                </div>
+            </div>
+            <ul>
+                <li id="Dashbord">
+                    <a href="#">
+                        <div class="icon">
+                            <i class="fa-regular fa-envelope-open"></i>
+                            <div class="title">
+                                Dashbord
+                                <span>3</span>
+                            </div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                    <ul id="link-dash">
+                        <li><a href="#" class="active">o - Analytics</a></li>
+                        <li><a href="#">o - CRM</a></li>
+                        <li><a href="#">o - eCommerce</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-layout-sidebar"></i>
+                            <div class="title">
+                                Layouts
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-calendar-check"></i>
+                            <div class="title">
+                                Calender
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-receipt"></i>
+                            <div class="title">
+                                Invoice
+                                <span>2</span>
+                            </div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-people"></i>
+                            <div class="title">Users</div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-gear"></i>
+                            <div class="title">Roles & Premissions</div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-file-earmark"></i>
+                            <div class="title">Pages</div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-lock"></i>
+                            <div class="title">Authentications</div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-pencil-square"></i>
+                            <div class="title">Wizzerd Examples</div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-file-earmark-font"></i>
+                            <div class="title">Modal Examples</div>
+                        </div>
+                        
+                    </a>
+                </li>
+                <p>COMPONENTS</p>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-card-text"></i>
+                            <div class="title">
+                                Card
+                                <span>4</span>
+                            </div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-person-bounding-box"></i>
+                            <div class="title">
+                                User Interface
+                            </div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-border-top"></i>
+                            <div class="title">
+                                Extended UI
+                            </div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-arrow-left-right"></i>
+                            <div class="title">
+                                Icons
+                            </div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <p>FORMS & TABLES</p>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-toggle-off"></i>
+                            <div class="title">
+                                Form Elements
+                            </div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-box2"></i>
+                            <div class="title">
+                                Form Layouts
+                            </div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-card-checklist"></i>
+                            <div class="title">
+                                Form Wizzerd
+                            </div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-file-check"></i>
+                            <div class="title">
+                                Form Validation
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-table"></i>
+                            <div class="title">
+                                Tables
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-file-earmark-excel-fill"></i>
+                            <div class="title">
+                                Data Tables
+                            </div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <p>Charts & Maps</p>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-bar-chart"></i>
+                            <div class="title">
+                                Charts
+                            </div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-universal-access"></i>
+                            <div class="title">
+                                Access Control
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-three-dots"></i>
+                            <div class="title">
+                                Other
+                            </div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <p>Music</p>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-headphones"></i>
+                            <div class="title">
+                                Support
+                            </div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-file-earmark-medical"></i>
+                            <div class="title">
+                                Documentation
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            </div>
+        </div>
+        <!-- start aside ______________________________________ -->
+        <aside id="aside">
+            <div class="nav-aside">
+                <div class="logo">
+                    <img src="images/logo.png" alt="">
+                    <h1>Vuexy</h1>
+                </div>
+                <div class="nav-icon">
+                </div>
+            </div>
+            <ul>
+                <li id="Dashbord">
+                    <a href="#">
+                        <div class="icon">
+                            <i class="fa-regular fa-envelope-open"></i>
+                            <div class="title">
+                                Dashbord
+                                <span>3</span>
+                            </div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                    <ul id="link-dash">
+                        <li><a href="#" class="active">o - Analytics</a></li>
+                        <li><a href="#">o - CRM</a></li>
+                        <li><a href="#">o - eCommerce</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-layout-sidebar"></i>
+                            <div class="title">
+                                Layouts
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-calendar-check"></i>
+                            <div class="title">
+                                Calender
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-receipt"></i>
+                            <div class="title">
+                                Invoice
+                                <span>2</span>
+                            </div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-people"></i>
+                            <div class="title">Users</div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-gear"></i>
+                            <div class="title">Roles & Premissions</div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-file-earmark"></i>
+                            <div class="title">Pages</div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-lock"></i>
+                            <div class="title">Authentications</div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-pencil-square"></i>
+                            <div class="title">Wizzerd Examples</div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-file-earmark-font"></i>
+                            <div class="title">Modal Examples</div>
+                        </div>
+                        
+                    </a>
+                </li>
+                <p>COMPONENTS</p>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-card-text"></i>
+                            <div class="title">
+                                Card
+                                <span>4</span>
+                            </div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-person-bounding-box"></i>
+                            <div class="title">
+                                User Interface
+                            </div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-border-top"></i>
+                            <div class="title">
+                                Extended UI
+                            </div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-arrow-left-right"></i>
+                            <div class="title">
+                                Icons
+                            </div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <p>FORMS & TABLES</p>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-toggle-off"></i>
+                            <div class="title">
+                                Form Elements
+                            </div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-box2"></i>
+                            <div class="title">
+                                Form Layouts
+                            </div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-card-checklist"></i>
+                            <div class="title">
+                                Form Wizzerd
+                            </div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-file-check"></i>
+                            <div class="title">
+                                Form Validation
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-table"></i>
+                            <div class="title">
+                                Tables
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-file-earmark-excel-fill"></i>
+                            <div class="title">
+                                Data Tables
+                            </div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <p>Charts & Maps</p>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-bar-chart"></i>
+                            <div class="title">
+                                Charts
+                            </div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-universal-access"></i>
+                            <div class="title">
+                                Access Control
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-three-dots"></i>
+                            <div class="title">
+                                Other
+                            </div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <p>Music</p>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-headphones"></i>
+                            <div class="title">
+                                Support
+                            </div>
+                        </div>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="icon">
+                            <i class="bi bi-file-earmark-medical"></i>
+                            <div class="title">
+                                Documentation
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <!-- end aside ________________________________________ -->
+
+        <!-- start content ____________________________________ -->
+        <!-- start form ################################################# -->
+        <div class="content">
+            <form action="">
+                <fieldset>
+                    <input type="text" placeholder="search">
+                </fieldset>
+                <div class="input-icon">
+                    <i class="bi bi-bell"></i>
+                    <i class="bi bi-moon-stars"></i>
+                    <img src="images/boy.jpg" alt="">
+                    <i class="bi bi-three-dots-vertical" id="menu" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"></i>                </div>
+            </form>
+            <!-- end form ################################################# -->
+
+            <!-- start web-analytics _______________________________________________ -->
+            <section class="web-analytics">
+                <div class="box">
+                    <div id="carouselExampleCaptions" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img src="images/one.jpg" class="d-block w-100 h-100" alt="...">
+                            <div class="carousel-caption d-md-block">
+                                <h3>Website Analytics</h3>
+                                <span>Total 28.5% Conversion Rate</span>
+                                <p>Traffic</p>
+                                <div class="box">
+                                    <div class="section">
+                                        <p><span>28%</span> Sessions</p>
+                                        <p><span>1.3k</span> Page Views</p>
+                                        <p><span>1.2k</span> Leads</p>
+                                        <p><span>12%</span> Conversion</p>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="carousel-item">
+                            <img src="images/two.jpg" class="d-block w-100 h-100" alt="...">
+                            <div class="carousel-caption d-md-block">
+                                <h3>Website Analytics</h3>
+                                <span>Total 28.5% Conversion Rate</span>
+                                <p>Traffic</p>
+                                <div class="box">
+                                    <div class="section">
+                                        <p><span>28%</span> Sessions</p>
+                                        <p><span>1.3k</span> Page Views</p>
+                                        <p><span>1.2k</span> Leads</p>
+                                        <p><span>12%</span> Conversion</p>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="carousel-item">
+                            <img src="images/three.jpg" class="d-block w-100 h-100" alt="...">
+                            <div class="carousel-caption d-md-block">
+                                <h3>Website Analytics</h3>
+                                <span>Total 28.5% Conversion Rate</span>
+                                <p>Traffic</p>
+                                <div class="box">
+                                    <div class="section">
+                                        <p><span>28%</span> Sessions</p>
+                                        <p><span>1.3k</span> Page Views</p>
+                                        <p><span>1.2k</span> Leads</p>
+                                        <p><span>12%</span> Conversion</p>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box box-flex">
+                    <div class="child-box">
+                        <div class="spans">
+                            <span>Sales Overview</span>
+                            <span class="span-two">+18.2%</span>
+                        </div>
+                        <h3>$42.5k</h3>
+                        <div class="order">
+                            <div class="sail-box">
+                                <p>order</p>
+                                <h4>62.2%</h4>
+                                <span>6,440</span>
+                            </div>
+                            <div class="sail-box">
+                                <p>visits</p>
+                                <h4>25.5%</h4>
+                                <span>12,749</span>
+                            </div>
+                        </div>
+                        <div class="prog">
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="child-box bg">
+                        <i class="bi bi-credit-card"></i>
+                        <h5>97.5k</h5>
+                        <p>Revenue Generated</p>
+                        <img src="images/bg.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <!-- end  web-analytics ____________________________________-->
+
+            <!-- start reports _________________________________________ -->
+            <section class="reports">
+                <div class="box  box-fa">
+                    <div class="head">
+                        <h4>Earning Reports</h4>
+                        <i class="bi bi-three-dots-vertical"></i>
+                    </div>
+                    <p class="p-head">Lorem, ipsum.</p>
+                    <div class="info">
+                        <div>
+                            <h3>$468 <span>+4.2%</span></h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="father-pro">
+                            <div class="pro one">
+                                <div class="child-pro"></div>
+                            </div>
+                            <div class="pro two">
+                                <div class="child-pro"></div>
+                            </div>
+                            <div class="pro three">
+                                <div class="child-pro"></div>
+                            </div>
+                            <div class="pro four">
+                                <div class="child-pro active"></div>
+                            </div>
+                            <div class="pro five">
+                                <div class="child-pro"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="foot">
+                        <div class="box one">
+                            <span><i class="bi bi-currency-dollar"></i> Earning</span>
+                            <p>$545.69</p>
+                            <div class="prog">
+                                <div></div>
+                            </div>
+                        </div>
+                        <div class="box two">
+                            <span><i class="bi bi-moon-stars"></i> Earning</span>
+                            <p>$545.69</p>
+                            <div class="prog">
+                                <div></div>
+                            </div>
+                        </div>
+                        <div class="box three">
+                            <span><i class="bi bi-lightbulb"></i> Earning</span>
+                            <p>$545.69</p>
+                            <div class="prog">
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box box-fa">
+                    <div class="head">
+                        <h4>Support Tracker</h4>
+                        <i class="bi bi-three-dots-vertical"></i>
+                    </div>
+                    <p class="p-head">Last 7 Days</p>
+                    <div class="info">
+                        <div class="info-two">
+                            <h3>$164</h3>
+                            <p>Total Trackts</p>
+                            <p><i class="bi bi-activity"></i> New Trackts</p>
+                            <p><i class="bi bi-check-circle-fill"></i> Open Trackts</p>
+                            <p><i class="bi bi-browser-safari"></i> Response Time</p>
+                        </div>
+                        <img src="images/count.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <!-- end reports ___________________________________________  -->
+            
+            <!-- start sales ___________________________________________  -->
+            <section class="sales">
+                <div class="box box-fa">
+                    <div class="head">
+                        <h4>Sales by Countries</h4>
+                        <i class="bi bi-three-dots-vertical"></i>
+                    </div>
+                    <p class="p-head">Lorem, ipsum dolor.</p>
+                    <div class="info-sales">
+                        <div class="box">
+                            <div class="info">
+                                <div class="flex-info">
+                                    <img src="images/united.jpg" alt="">
+                                    <div>
+                                        <p>$8.45k</p>
+                                        <span>United States</span>
+                                    </div>
+                                </div>
+                                <span><i class="bi bi-chevron-up"></i> 25.8%</span>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                
+                                <div  class="flex-info">
+                                    <img src="images/brazil.jpg" alt="">
+                                    <div>
+                                        <p>$7.78k</p>
+                                        <span>Brazil</span>
+                                    </div>
+                                </div>
+                                <span><i class="bi bi-chevron-up"></i> 16.2%</span>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                
+                                <div  class="flex-info">
+                                    <img src="images/india.jpg" alt="">
+                                    <div>
+                                        <p>$6.48k</p>
+                                        <span>India</span>
+                                    </div>
+                                </div>
+                                <span><i class="bi bi-chevron-up"></i> 12.3%</span>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                
+                                <div  class="flex-info">
+                                    <img src="images/images.jpeg" alt="">
+                                    <div>
+                                        <p>$11.9k</p>
+                                        <span>Egypt</span>
+                                    </div>
+                                </div>
+                                <span><i class="bi bi-chevron-up"></i> 12.8%</span>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                
+                                <div  class="flex-info">
+                                    <img src="images/france.jpg" alt="">
+                                    <div>
+                                        <p>$4.45k</p>
+                                        <span>France</span>
+                                    </div>
+                                </div>
+                                <span><i class="bi bi-chevron-up"></i> 16.1%</span>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <div  class="flex-info">
+                                    <img src="images/china.jpg" alt="">
+                                    <div>
+                                        <p>$3.45k</p>
+                                        <span>China</span>
+                                    </div>
+                                </div>
+                                <span><i class="bi bi-chevron-up"></i> 14.8%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box box-fa">
+                    <div class="head">
+                        <h4>Sales by Countries</h4>
+                        <i class="bi bi-three-dots-vertical"></i>
+                    </div>
+                    <p class="p-head">Lorem, ipsum dolor.</p>
+                    <div class="info-sales">
+                        <img class="img" src="images/podcast.png" alt="">
+                    </div>
+                    <div class="info-total">
+                        <div class="box">
+                            <div class="box-info">
+                                <div class="flex-info">
+                                    <i class="bi bi-currency-dollar"></i>
+                                    <div>
+                                        <p>Total Sales</p>
+                                        <span>Refound</span>
+                                    </div>
+                                </div>
+                                <span> +14.8%</span>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="box-info">
+                                <div class="flex-info">
+                                    <i class="bi bi-boxes"></i>
+                                    <div>
+                                        <p>Total Reverous</p>
+                                        <span>Payment</span>
+                                    </div>
+                                </div>
+                                <span> +126%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box box-fa">
+                    <div class="head">
+                        <h4>Monthly Campaign State</h4>
+                        <i class="bi bi-three-dots-vertical"></i>
+                    </div>
+                    <p class="p-head">Lorem, ipsum dolor.</p>
+                    <div class="info-sales end">
+                        <div class="box">
+                            <div class="flex-div">
+                                <div class="flex-div2">
+                                    <i class="bi bi-envelope"></i>
+                                    <p>Emails</p>
+                                </div>
+                                <p>12.346 <span> 25.8%</span></p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="flex-div">
+                                <div class="flex-div2">
+                                    <i class="bi bi-paperclip"></i>
+                                    <p>Opened</p>
+                                </div>
+                                <p>12.346 <span> 25.8%</span></p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="flex-div">
+                                <div class="flex-div2">
+                                    <i class="bi bi-cursor-fill"></i>
+                                    <p>Clicked</p>
+                                </div>
+                                <p>12.346 <span> 25.8%</span></p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="flex-div">
+                                <div class="flex-div2">
+                                    <i class="bi bi-person"></i>
+                                    <p>Subscribe</p>
+                                </div>
+                                <p>12.346 <span> 25.8%</span></p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="flex-div">
+                                <div class="flex-div2">
+                                    <i class="bi bi-exclamation-octagon-fill"></i>
+                                    <p>complaints</p>
+                                </div>
+                                <p>12.346 <span> 25.8%</span></p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="flex-div">
+                                <div class="flex-div2">
+                                    <i class="bi bi-patch-exclamation-fill"></i>
+                                    <p>unsubscribe</p>
+                                </div>
+                                <p>12.346 <span> 25.8%</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end sales ___________________________________________  -->
+            <!-- start source ___________________________________________  -->
+            <section class="source">
+                <div class="box box-fa box-hi">
+                    <div class="head">
+                        <h4>Monthly Campaign State</h4>
+                        <i class="bi bi-three-dots-vertical"></i>
+                    </div>
+                    <p class="p-head">Lorem, ipsum dolor.</p>
+                    <div class="info-sales end">
+                        <div class="box">
+                            <div class="flex-div">
+                                <div class="flex-div2">
+                                    <i class="bi bi-envelope"></i>
+                                    <p>Emails</p>
+                                </div>
+                                <p>12.346 <span> 25.8%</span></p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="flex-div">
+                                <div class="flex-div2">
+                                    <i class="bi bi-paperclip"></i>
+                                    <p>Opened</p>
+                                </div>
+                                <p>12.346 <span> 25.8%</span></p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="flex-div">
+                                <div class="flex-div2">
+                                    <i class="bi bi-cursor-fill"></i>
+                                    <p>Clicked</p>
+                                </div>
+                                <p>12.346 <span> 25.8%</span></p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="flex-div">
+                                <div class="flex-div2">
+                                    <i class="bi bi-person"></i>
+                                    <p>Subscribe</p>
+                                </div>
+                                <p>12.346 <span> 25.8%</span></p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="flex-div">
+                                <div class="flex-div2">
+                                    <i class="bi bi-exclamation-octagon-fill"></i>
+                                    <p>complaints</p>
+                                </div>
+                                <p>12.346 <span> 25.8%</span></p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="flex-div">
+                                <div class="flex-div2">
+                                    <i class="bi bi-patch-exclamation-fill"></i>
+                                    <p>unsubscribe</p>
+                                </div>
+                                <p>12.346 <span> 25.8%</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box box-hi">
+                    <div class="head">
+                        <h5>Projects</h5>
+                        <input type="text" placeholder="Search">
+                    </div>
+
+                    <div class="child-box">
+                        <input type="checkbox">
+                        <h6>name</h6>
+                        <p>Leader</p>
+                        <p>team</p>
+                        <p>Status</p>
+                        <i class="bi bi-three-dots-vertical"></i>
+                    </div>
+                    <hr>
+                    <div class="child-box">
+                        <input type="checkbox">
+                        <div class="name">
+
+                            <div>
+                                <h6>Website SEO</h6>
+                                <p>17 june 2022</p>
+                            </div>
+                        </div>
+                        <p>Ebrahem</p>
+                        <div class="img">
+                            <img src="images/boy.jpg" alt="">
+                            <img src="images/boy.jpg" alt="">
+                            <img src="images/boy.jpg" alt="">
+                        </div>
+                        <i class="bi bi-three-dots-vertical"></i>
+                    </div>
+                    <div class="child-box">
+                        <input type="checkbox">
+                        <div class="name">
+
+                            <div>
+                                <h6>Website SEO</h6>
+                                <p>17 june 2022</p>
+                            </div>
+                        </div>
+                        <p>Ebrahem</p>
+                        <div class="img">
+                            <img src="images/boy.jpg" alt="">
+                            <img src="images/boy.jpg" alt="">
+                            <img src="images/boy.jpg" alt="">
+                        </div>
+                        <i class="bi bi-three-dots-vertical"></i>
+                    </div>
+                    <div class="child-box">
+                        <input type="checkbox">
+                        <div class="name">
+
+                            <div>
+                                <h6>Website SEO</h6>
+                                <p>17 june 2022</p>
+                            </div>
+                        </div>
+                        <p>Ebrahem</p>
+                        <div class="img">
+                            <img src="images/boy.jpg" alt="">
+                            <img src="images/boy.jpg" alt="">
+                            <img src="images/boy.jpg" alt="">
+                        </div>
+                        <i class="bi bi-three-dots-vertical"></i>
+                    </div>
+                    <div class="child-box">
+                        <input type="checkbox">
+                        <div class="name">
+
+                            <div>
+                                <h6>Website SEO</h6>
+                                <p>17 june 2022</p>
+                            </div>
+                        </div>
+                        <p>Ebrahem</p>
+                        <div class="img">
+                            <img src="images/boy.jpg" alt="">
+                            <img src="images/boy.jpg" alt="">
+                            <img src="images/boy.jpg" alt="">
+                        </div>
+                        <i class="bi bi-three-dots-vertical"></i>
+                    </div>
+                    <div class="child-box">
+                        <input type="checkbox">
+                        <div class="name">
+
+                            <div>
+                                <h6>Website SEO</h6>
+                                <p>17 june 2022</p>
+                            </div>
+                        </div>
+                        <p>Ebrahem</p>
+                        <div class="img">
+                            <img src="images/boy.jpg" alt="">
+                            <img src="images/boy.jpg" alt="">
+                            <img src="images/boy.jpg" alt="">
+                        </div>
+                        <i class="bi bi-three-dots-vertical"></i>
+                    </div>
+                </div>
+            </section>
+            <!-- end source ___________________________________________  -->
+        </div>
+        <!-- end content ______________________________________ -->
+        <script src="js/bootstrap.bundle.js"></script>
+        <script src="js/main.js"></script>
+    </main>
+</body>
+</html>
